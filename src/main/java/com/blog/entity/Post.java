@@ -5,6 +5,7 @@ import org.hibernate.annotations.Type;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "ggg")
 public class Post {
 
     @Id
@@ -12,7 +13,9 @@ public class Post {
     @GeneratedValue
     private Integer id;
 
-    @Column(name = "TEXT")
+
+    @Column(name = "Content")
+    @Type(type = "text")
     private String text;
 
     @Column(name = "TITLE")

@@ -8,6 +8,10 @@
 <head>
     <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
     <link rel="stylesheet" href="/resources/css/circlebtn.css">
+   <script
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
     <script src="/resources/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -19,7 +23,7 @@
             <div class="btn-group-lg vertical-center pull-right">
 
                 <a href="/show-table">
-                    <button class="btn btn-success btn-circle btn-lg"><span class="glyphicon glyphicon-th-list"></span></button>
+                    <button class="btn btn-success btn-circle btn-lg"><i class="glyphicon glyphicon-th-list"></i></button>
                 </a>
                 <a href="/add">
                     <button class="btn btn-info btn-circle btn-lg"><i class="glyphicon glyphicon-plus"></i></button>
